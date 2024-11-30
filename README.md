@@ -1,1 +1,16 @@
-# pr-cticas-patrones-de-dise-o-
+#Lista de patrones de diseño 
+*Patrones estructurales *
+Factory 
+Abstract Factory 
+Singleton 
+Prototype 
+Adapter 
+Decorator 
+*Patrones de comportamiento *
+Observer 
+State 
+Strategy 
+Template 
+*Patrones creacionales*
+Builder 
+Prototype 

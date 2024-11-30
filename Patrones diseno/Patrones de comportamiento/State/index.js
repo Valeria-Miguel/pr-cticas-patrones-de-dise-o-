@@ -1,8 +1,8 @@
-const EstadoListo = require('./src/EstadoListo');
+/*const EstadoListo = require('./src/EstadoListo');
 const EstadoPreparando = require('./src/EstadoPreparando');
-const EstadoSinAgua = require('./src/EstadoSinAgua');
+const EstadoSinAgua = require('./src/EstadoSinAgua');*/
 
-//verifica si cada clase de estado puede manejar una solicitud sin lanzar un error
+//verifica si cada clase de estado puede manejar una solicitud 
 try {
   let maquina = new (require('./src/MaquinaCafe'))();
   maquina.solicitud();  //debería preparar café

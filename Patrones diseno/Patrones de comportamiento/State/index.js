@@ -1,10 +1,15 @@
-const MaquinaCafe = require('./src/MaquinaCafe');
+const EstadoListo = require('./src/EstadoListo');
+const EstadoPreparando = require('./src/EstadoPreparando');
+const EstadoSinAgua = require('./src/EstadoSinAgua');
 
-// creamos una nueva instancia de la maquina
-const maquinaCafe = new MaquinaCafe();
-
-// empezamos el proceso de preparar el cafe
-maquinaCafe.solicitud();  // preparando el café...
-maquinaCafe.solicitud();  // café listo. disfruta!
-maquinaCafe.solicitud();  // sin agua. por favor, llena el tanque.
-maquinaCafe.solicitud();  // preparando el café...
+//verifica si cada clase de estado puede manejar una solicitud sin lanzar un error
+try {
+  let maquina = new (require('./src/MaquinaCafe'))();
+  maquina.solicitud();  //debería preparar café
+  maquina.solicitud();  //café debería estar listo y luego sin agua
+  maquina.solicitud();  //debería pedir llenar el tanque de agua
+  maquina.solicitud();  //debería preparar café de nuevo
+  console.log("Todas las solicitudes se manejaron correctamente");
+} catch (e) {
+  console.error("Error encontrado durante la prueba:", e.message);
+}

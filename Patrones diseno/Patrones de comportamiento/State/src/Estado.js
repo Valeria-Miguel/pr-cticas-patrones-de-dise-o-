@@ -1,5 +1,7 @@
+//esta clase no se usa directamente.
+
 class Estado {
-    // metodo que deben implementar los estados concretos
+    // Este metodo maneja las solicitudes pero debe ser implementado por una subclase.
     manejarSolicitud(contexto) {
       throw new Error("Este metodo debe ser implementado por una subclase.");
     }

@@ -2,10 +2,10 @@ const Estado = require('./Estado');
 const EstadoListo = require('./EstadoListo');
 
 class EstadoSinAgua extends Estado {
-  // si no hay agua en la maquina
+    //este es el método que se ejecuta cuando se hace una solicitud
   manejarSolicitud(contexto) {
     console.log("sin agua. por favor, llena el tanque.");
-    // volvemos al estado "listo" para poder preparar el café de nuevo
+      //dspues de que la solicitud se maneja, cambiamos el estado de la máquina de café
     contexto.cambiarEstado(new EstadoListo());
   }
 }

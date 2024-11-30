@@ -1,5 +1,3 @@
-// Sujeto.js
-
 class Sujeto {
     constructor() {
       this.observadores = [];

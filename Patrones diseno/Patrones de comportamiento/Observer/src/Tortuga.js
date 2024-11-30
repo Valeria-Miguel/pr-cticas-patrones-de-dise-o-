@@ -1,15 +1,13 @@
-// Tortuga.js
-
 const Observador = require('./Observador');
 const Clima = require('./Clima');
-
+//se extiende de observaodr y se registra en la clase como observador en clima
 class Tortuga extends Observador {
   constructor(clima) {
     super();
-    this.clima = clima;
-    this.clima.agregarObservador(this);
+    this.clima = clima; //guardamos en clima
+    this.clima.agregarObservador(this);//se va a observador
   }
-
+//se actuaiza para mostrar los cmabio s
   actualizar() {
     const humedad = this.clima.getHumedad();
     if (humedad < 40) {

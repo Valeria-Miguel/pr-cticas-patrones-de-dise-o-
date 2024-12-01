@@ -1,7 +1,7 @@
 Patrón Prototype
 El patrón Prototype basa su funcionalidad en la clonación de objetos, estos nuevos objetos son creados mediante un pool de prototipos elaborados previamente y almacenados. Este patrón es especialmente útil cuando necesitamos crear objetos basados en otros ya existentes o cuando se necesita la creación de estructuras de objetos muy grandes, este patrón nos ayuda también a ocultar la estrategia utilizada para clonar un objeto. fuente: https://reactiveprogramming.io/blog/es/patrones-de-diseno/prototype
 
-Aqui se utilizo el patron prototyoe utiizando utensilios y subclases concretas Cuchillo y Tenedor. Cada subclase implementa el método clonar para permitir la clonación de objetos
+Aqui se utilizo el patron prototyoe utiizando utensilios y subclases concretas Cuchillo y Tenedor. Cada subclase implementa el metodo clonar para permitir la clonación de objetos
 
 los archivos estan de la siguiente forma:
 -**Utensilio.js**: se define la clase Utensilio define la estructura básica de un utensilio de cocina. Contiene atributos comunes como material y tamano, y metodos abstractos clonar y mostrar que deben ser implementados por las subclases

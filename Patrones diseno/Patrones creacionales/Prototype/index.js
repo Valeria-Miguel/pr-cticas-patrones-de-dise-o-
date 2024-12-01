@@ -3,7 +3,7 @@ const Tenedor = require('./src/Tenedor');
 
 // crear un cuchillo con sus caracteristicas
 const cuchillo1 = new Cuchillo('acero inoxidable', 'grande', 'afilado');
-//se crea un clon del cuchillo utilizando el método clonar.
+//se crea un clon del cuchillo utilizando el metodo clonar.
 const cuchilloClonado = cuchillo1.clonar();
 // se muestra los detalles del cuchillo original y su clon.
 cuchillo1.mostrar();

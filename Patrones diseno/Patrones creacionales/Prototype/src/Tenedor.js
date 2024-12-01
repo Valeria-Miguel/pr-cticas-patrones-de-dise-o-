@@ -7,7 +7,7 @@ class Tenedor extends Utensilio {
     this.dientes = dientes;//ademas inicializa el filo específico del tenedor
   }
 
-  clonar() {//se implementa el método clonar para crear una copia del tenerdot actual
+  clonar() {//se implementa el metodo clonar para crear una copia del tenerdot actual
     //se crea una nueva instancia de tenerdot con los mismos valores de material, tamaño y filo.
     return new Tenedor(this.material, this.tamano, this.dientes);
   }

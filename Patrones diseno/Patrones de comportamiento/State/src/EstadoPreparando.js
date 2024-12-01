@@ -6,7 +6,7 @@ class EstadoPreparando extends Estado {
   //el comportamiento de este estado es preparar el café
   manejarSolicitud(contexto) {
     console.log("café listo. disfruta!");
-    //despues de preparar el café, cambiamos al estado "sin agua"
+    //dspues de preparar el café, cambiamos al estado "sin agua"
     contexto.cambiarEstado(new EstadoSinAgua());
   }
 }

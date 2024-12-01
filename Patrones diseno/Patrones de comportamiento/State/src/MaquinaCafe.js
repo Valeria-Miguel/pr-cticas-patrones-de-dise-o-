@@ -6,7 +6,7 @@ class MaquinaCafe {
  constructor() {
     this.estado = new EstadoListo();
   }
-//qaui se va cambiando el estado de la maquina de cafe
+//aqui se va cambiando el estado de la maquina de cafe
   cambiarEstado(estado) {
     this.estado = estado;
   }

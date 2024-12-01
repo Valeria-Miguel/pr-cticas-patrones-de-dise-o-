@@ -1,4 +1,4 @@
-//Aqui estamos utilizando el patron Prototype para permitir la clonación de objetos.
+//Aqui estamos utilizando el patron Prototype para permitir la clonación de objetos
 
 class Utensilio {
     constructor(material, tamano) {

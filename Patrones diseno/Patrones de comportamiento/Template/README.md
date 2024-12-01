@@ -1,7 +1,7 @@
 # Patrón de Diseño Template 
 Template Method es un patrón de diseño de comportamiento que define el esqueleto de un algoritmo en la superclase pero permite que las subclases sobrescriban pasos del algoritmo sin cambiar su estructura. (https://refactoring.guru/es/design-patterns/template-method)
 
-aqui se implemeta el patron Template Method para simular el proceso de encender diferentes dispositivos electrónicos, como una televisiozn y una radio cada dispositivo tiene pasos específicos que debe seguir para encenderse pero comparten algunos pasos comunes
+aqui se implemeta el patron Template Method para simular el proceso de encender diferentes dispositivos electrónicos, como una television y una radio cada dispositivo tiene pasos específicos que debe seguir para encenderse pero comparten algunos pasos comunes
 
 asi se structura:
 -index.js: crea instancias de Television y Radio, y las enciende y las enciende con el metodo encender

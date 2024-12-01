@@ -6,7 +6,7 @@ aqui implemente el patron Observer para simular un sistema que observa cambios e
 se estructura asi el ejercicio:
 - index.js:aqui coordinan todos los elementos del sistema, se crean instancias de las clases Clima, Pajaro y Tortuga y ingresamos los cambios de clima y se muestran mensajes dependiendo de como se conporten el pajaro y la tortuga
 -Clima.js: aqui se maneja el estado del clima la tempetratura y la humendad avisa a los observadores si ahi un cambio 
---Tortuga.js y Pajaro,js : este observador está pendiente de la temperatura:
+--Tortuga.js y Pajaro,js: este observador está pendiente de la temperatura:
 --Si la temperatura es mayor a 25 grados, el pájaro canta
 --Si es menor o igual a 25 grados, se queda callado porque hace frío
 Igual en la tortuga el pajaro se registra con el clima y reacciona a los cambios

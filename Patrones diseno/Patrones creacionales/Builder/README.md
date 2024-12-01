@@ -5,4 +5,4 @@ entonces en el ejercicio lo implemente para hacer pizzas agregandoles ingredient
 El codigo consta de tres archivos principales:
 -**Pizza.js**:representa el objeto final que queremos construir "la pizza" esta clase contiene una lista de ingredientes y metodos para interactuar con ella (agregar ingredientes y mostrarlos)
 -**PizzaBuilder.js**:Implementa el patron Builder(construir), proporciona metodos especificos para añadir ingredientes a la pizza ( queso, pepperoni, aceitunas) y finalmente construir la pizza y en el metodo construir devuelve la pizza completa
--**index.js**: muestra se pueden construir diferentes de pizzas y luego mostrar sus ingredientes.
+-**index.js**: muestra se pueden construir diferentes de pizzas y luego mostrar sus ingredientes

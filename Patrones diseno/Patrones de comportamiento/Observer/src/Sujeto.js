@@ -13,7 +13,7 @@ class Sujeto {
       this.observadores = this.observadores.filter(obs => obs !== observador);
     }
   
-    //metodo para notificar a todos los observadores
+    //metodo para notificar a todos los observadors
     notificarObservadores() {
       this.observadores.forEach(observador => observador.actualizar());
     }

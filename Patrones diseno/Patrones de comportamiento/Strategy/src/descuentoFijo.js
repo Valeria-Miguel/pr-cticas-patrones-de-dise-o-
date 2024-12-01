@@ -1,6 +1,6 @@
 //estrategia de descuento fijo
 const estrategiaDescuento = require('./estrategiaDescuento');
-//define la clase 'descuentoFijo' que extiende de 'estrategiaDescuento'. 
+//dfine la clase 'descuentoFijo' que extiende de 'estrategiaDescuento'. 
 //esto permite que 'descuentoFijo' implemente su propia lógica de descuento siguiendo el contrato de la clase base
 
 class descuentoFijo extends estrategiaDescuento {

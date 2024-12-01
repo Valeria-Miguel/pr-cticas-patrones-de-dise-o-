@@ -18,7 +18,7 @@ class Hotel {
       };
     }
   
-    // metodo estático para obtener la instancia única
+    //metodo estático para obtener la instancia única
     static getInstance() {
       if (!Hotel.instancia) {
         Hotel.instancia = new Hotel();
@@ -26,7 +26,7 @@ class Hotel {
       return Hotel.instancia;
     }
   
-    // aqui se reserva una habitación
+    //aqui se reserva una habitación
     reservarHabitacion(numero, nombreHuesped) {
       if (this.habitaciones[numero]) {
         console.log(`La habitación ${numero} ya esta ocupada por ${this.habitaciones[numero]}.`);
@@ -36,12 +36,12 @@ class Hotel {
       }
     }
   
-    // se verifica si una habitación está ocupada
+    //se verifica si una habitación está ocupada
     estaOcupada(numero) {
       return !!this.habitaciones[numero];
     }
   
-    // se  mostran todas las reservas
+    //se  mostran todas las reservas
     mostrarReservas() {
       console.log("Reservas actuales:");
       for (const numero in this.habitaciones) {

@@ -1,7 +1,7 @@
 Patorn PROtotype 
 Prototype es un patrón de diseño  que nos permite copiar objetos existentes sin que el código dependa de sus clases.(https://refactoring.guru/es/design-patterns/prototype)
 
-se implementa el patrón Prototype para clonar objetos que representan bebidas alcohólicas, cada bebida tiene un nombre, un tipo, y un grado alcohólico. Utilizamos el metodo clonar para crear copias de las bebidas y el método mostrarDetalles para mostrar los detalles de las bebidas
+se implementa el patrón Prototype para clonar objetos que representan bebidas alcohólicas, cada bebida tiene un nombre, un tipo, y un grado alcohólico. Utilizamos el metodo clonar para crear copias de las bebidas y el metodo mostrarDetalles para mostrar los detalles de las bebidas
 
 estructura del ejercicio:
 index.js:solicita que ingrese la información de la bebida se crea una instancia de BebidaAlcoolica y se clona la bebida y se muestra los detalles de la bebida original y la bebida clonada

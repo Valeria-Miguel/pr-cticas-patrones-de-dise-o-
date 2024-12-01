@@ -13,9 +13,9 @@ En mi ejemplo se utiliza para crear diferentes tipos de transportes (carros, bic
 │   ├── /modules
 │   │   ├── Car.js            # clase para carros ---> Describe carros atraves del metodo `getDetails` 
 │   │   ├── Bike.js           # clase  para bicicletas--Describe bicis atraves del metodo `getDetails` 
-│   │   └── Bus.js            # clase  para autobus--< describe un autobs atraves del método `getDetails` > 
+│   │   └── Bus.js            # clase  para autobus--< describe un autobs atraves del metodo `getDetails` > 
 │   ├── Transport.js          # clase por donde pasan todos los transportes 
-                                    -define las propiedades comunes y un método general donde se obtiene la descripcion y el nombre del modelo del trasnporte es decir hereda de esta clase y agrega detalles deacuerdo al tipo de transporte
+                                    -define las propiedades comunes y un metodo general donde se obtiene la descripcion y el nombre del modelo del trasnporte es decir hereda de esta clase y agrega detalles deacuerdo al tipo de transporte
 │   └── VehicleApp.js         # el main
                                     1. se selecciona el tipo de transporte
                                    2.  pide el modelo del transporte

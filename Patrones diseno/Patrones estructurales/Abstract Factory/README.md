@@ -13,7 +13,7 @@ ModernDoor.js:clase ModernDoor extiende Door y sobrescribe el metodo describe pa
 TraditionalDoor.js: clase TraditionalDoor extiende Door y sobrescribe el metodo describe para describir una puerta tradicional
 Window.js: clase Window define un metodo abstracto describe que debe ser implementado por todas las subclases
 ModernWindow.js: clase ModernDoor extiende Door y sobrescribe el metodo describe para describir una puerta moderna
-TraditionalWindow.js: clase TraditionalWindow extiende Window y sobrescribe el método describe para describir una ventana tradicional
+TraditionalWindow.js: clase TraditionalWindow extiende Window y sobrescribe el metodo describe para describir una ventana tradicional
 
 terminal:
 PS C:\Users\Acer\Desktop\siete\Patrones_Diseño\Patrones diseno\Patrones estructurales\Abstract Factory> node index.js

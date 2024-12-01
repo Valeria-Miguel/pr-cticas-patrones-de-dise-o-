@@ -6,7 +6,7 @@ aqui se implementa  Decorator para gestionar las notas de estudiantes añadiendo
 
 asi estan los archivos: 
 
-index.js: solicita el nombre y nota del estudinte y luego se aplcian los decoradores según las respuestas del usuario y mostramos la nota final del estudiante con todas las bonificaciones aplicadas
+index.js: solicita el nombre y nota del estudinte y luego se aplcian los decoradores segen las respuestas del usuario y mostramos la nota final del estudiante con todas las bonificaciones aplicadas
 
 Notas.js: la clase  Notas que almacena el nombre del estudiante y su nota base
 

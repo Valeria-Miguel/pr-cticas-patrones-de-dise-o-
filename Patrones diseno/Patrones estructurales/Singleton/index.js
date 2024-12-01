@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 // obtenemos la instancia unica del hotel
 const hotel = Hotel.getInstance();
 
-// función para verificar el estado de una habitación
+//función para verificar el estado de una habitación
 function verificarHabitacion() {
   rl.question('Ingresa el número de la habitación que deseas verificar: ', (numero) => {
     numero = parseInt(numero, 10);

@@ -5,7 +5,7 @@ class ParticipacionDecorator extends Decorator {
     super(notas);
   }
 
-  // metodo para obtener la nota con bonificación por participación
+  //metodo para obtener la nota con bonificación por participación
   getNota() {
     return this.notas.getNota() + 2; // bonificación de 2 puntos por participación
   }

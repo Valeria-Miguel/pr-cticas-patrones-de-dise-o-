@@ -3,7 +3,6 @@ Patron de diseño Abstract Factory
 Abstract Factory es un patrón de diseño creacional que nos permite producir familias de objetos relacionados sin especificar sus clases concretas.(https://refactoring.guru/es/design-patterns/abstract-factory)
 
 aqui se implemeto el patron Abstract Factory para crear diferentes tipos de casas: modernas y tradicionales cada tipo de casa tiene su propia fabrica que produce puertas y ventanas especificas para ese estilo
-
 Estructura del ejercicio
 index.js: crea instancias de ModernHouseFactory y TraditionalHouseFactory y describe las casas
 HouseFactory.js: clase HouseFactory base para las fabricas de casas que define los metodos createDoor y createWindow

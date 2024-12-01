@@ -1,13 +1,13 @@
 class Hotel {
-    // instancia privada estatica para mantener la instancia unica
+    //instancia privada estatica para mantener la instancia unica
     static instancia;
   
-    // constructor privado para evitar la creación de más instancias
+    //constructor privado para evitar la creación de más instancias
     constructor() {
       if (Hotel.instancia) {
         throw new Error("Ya existe una instancia de Hotel. Usa Hotel.getInstance() para obtenerla.");
       }
-      // inicializar algunas habitaciones como ocupadas
+      //inicializar algunas habitaciones como ocupadas
       this.habitaciones = {
         1: 'Pedro Sánchez',
         3: 'Marta López',

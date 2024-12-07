@@ -1,4 +1,4 @@
-//La máquina de café tiene un estado que cambia dependiendo de lo que esté pasando
+//La maquina de café tiene un estado que cambia dependiendo de lo que esté pasando
 
 const EstadoListo = require('./EstadoListo');//traemos el estado "Listo", que es el inicial de la máquina de café
 class MaquinaCafe {

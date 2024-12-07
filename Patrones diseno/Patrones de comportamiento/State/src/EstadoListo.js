@@ -1,5 +1,5 @@
 const Estado = require('./Estado');
-// definimos la clase EstadoListo, que hereda de la clase Estado
+// definimos la clase EstadoListo que hereda de la clase Estado
 class EstadoListo extends Estado {
  
   // este metodo maneja la solicitud cuando la maquina esta en estado "Listo"

@@ -1,4 +1,4 @@
-// clase concreta que implementa los pasos específicos para encender una radio
+// clase concreta que implementa los pasos especificos para encender una radio
 const DispositivoElectronico = require('./DispositivoElectronico');
 
 class Radio extends DispositivoElectronico {

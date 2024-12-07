@@ -9,7 +9,7 @@ se estructura asi el ejercicio:
 --Tortuga.js y Pajaro,js : este observador está pendiente de la temperatura:
 --Si la temperatura es mayor a 25 grados, el pájaro canta
 --Si es menor o igual a 25 grados, se queda callado porque hace frío
-Igual en la tortuga el pájaro se registra con el clima y reacciona a los cambios
+Igual en la tortuga el pajaro se registra con el clima y reacciona a los cambios
 -sujeto.js: es una clase base que se encarga de manejar a los observadores es donde se puede agregar notificar alos  observadores. aqui es donde se notifica cuando ahi un cambio del clima
 -Observador.js:se define que cada observador debe tener un metodo actualizar, que será llamado cada vez que el clima cambie y es oara los observadores como Pajaro y Tortuga
 

@@ -1,5 +1,5 @@
 class Hotel {
-    // instancia privada estatica para mantener la instancia única
+    // instancia privada estatica para mantener la instancia unica
     static instancia;
   
     // constructor privado para evitar la creación de más instancias

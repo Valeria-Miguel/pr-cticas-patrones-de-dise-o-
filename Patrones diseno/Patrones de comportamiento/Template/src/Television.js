@@ -1,4 +1,4 @@
-// clase concreta que implementa los pasos específicos para encender una televisión
+// clase concreta que implementa los pasos especificos para encender una televisión
 const DispositivoElectronico = require('./DispositivoElectronico');
 
 class Television extends DispositivoElectronico {

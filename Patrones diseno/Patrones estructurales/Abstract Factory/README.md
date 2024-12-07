@@ -6,11 +6,11 @@ aqui se implemeto el patron Abstract Factory para crear diferentes tipos de casa
 
 Estructura del ejercicio
 index.js: crea instancias de ModernHouseFactory y TraditionalHouseFactory y describe las casas
-HouseFactory.js: clase HouseFactory base para las fábricas de casas que define los métodos createDoor y createWindow
+HouseFactory.js: clase HouseFactory base para las fabricas de casas que define los metodos createDoor y createWindow
 ModernHouseFactory.js: clase ModernHouseFactory extiende HouseFactory y crea puertas y ventanas modernas
 TraditionalHouseFactory.js: clase TraditionalHouseFactory extiende HouseFactory y crea puertas y ventanas tradicionales
 Door.js: la clase Door define un metodo abstracto describe que debe ser implementado por todas las subclases
-ModernDoor.js:clase ModernDoor extiende Door y sobrescribe el método describe para describir una puerta moderna
+ModernDoor.js:clase ModernDoor extiende Door y sobrescribe el metodo describe para describir una puerta moderna
 TraditionalDoor.js: clase TraditionalDoor extiende Door y sobrescribe el metodo describe para describir una puerta tradicional
 Window.js: clase Window define un metodo abstracto describe que debe ser implementado por todas las subclases
 ModernWindow.js: clase ModernDoor extiende Door y sobrescribe el metodo describe para describir una puerta moderna
